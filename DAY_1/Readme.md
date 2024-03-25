@@ -52,5 +52,17 @@ tns = -759.46
 
 wns = -24.89
 
+## Mapping of RTL to internal library
+
+![Screenshot 2024-03-25 193041](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/d0d5b385-0614-4c0b-9ffb-08b630272c45)
+
+
+![Screenshot 2024-03-25 193057](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/74cb07fb-0f38-4cfe-872b-88d568808a68)
+
+
+
+
+
+
 
 
