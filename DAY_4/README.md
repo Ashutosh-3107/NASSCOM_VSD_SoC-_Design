@@ -88,8 +88,17 @@ set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
 add_lefs -src $lefs
 set ::env(SYNTH_STRATEGY) "DELAY 0"
 set ::env(SYNTH_SIZING) 1
+run_synthesis
 
 ```
+![Screenshot 2024-03-22 133842](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/e55e5cf6-2770-4f84-979b-fc6fba9c07f5)
+
+![Screenshot 2024-03-22 133939](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/dcfa2bde-ec09-4602-bf0f-8184fcadff13)
+
+Area of the chip has increased
+
+tns = 0.00
+wns = 0.00
 
 
 
