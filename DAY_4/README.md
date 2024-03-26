@@ -34,6 +34,9 @@ lef write
 ```
 command writes the LEF file with the same nomenclature as that of the layout (.mag) file.
 
+![Screenshot 2024-03-19 102744](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/5bcd4943-f53a-4556-8f21-a8b2d88cdfb5)
+
+
 
  
 
