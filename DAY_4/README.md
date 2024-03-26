@@ -187,6 +187,11 @@ report_clock_skew -setup
 
 ![Screenshot 2024-03-24 120653](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/919ae189-4d6e-4a89-8358-ceab5c248a98)
 
+## Layout after CTS
+
+![Screenshot 2024-03-24 122603](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/3549224f-6ef6-4ae4-a412-d04bc299117a)
+
+
 
 
 
