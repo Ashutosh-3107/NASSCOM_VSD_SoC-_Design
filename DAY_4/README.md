@@ -25,6 +25,15 @@ Post port definition, the next step is setting port class and port use attribute
 
 ![Screenshot 2024-03-19 102921](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/d3f5bbe6-4f17-4093-8af2-6ba494dbbd91)
 
+## Extracting LEF file
+
+Once the properties are set,
+```
+lef write
+
+```
+command writes the LEF file with the same nomenclature as that of the layout (.mag) file.
+
 
  
 
