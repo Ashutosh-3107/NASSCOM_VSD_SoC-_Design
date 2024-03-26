@@ -39,7 +39,36 @@ command writes the LEF file with the same nomenclature as that of the layout (.m
 
 ## Importing files
 
-Copy the extracted lef file and sky_fd_sc_hd__.lib * all files into the design folder of picorv32a/src and make the following changes to the design config.tcl file of picorv32a
+Copy the extracted lef file and sky_fd_sc_hd__.lib * all files from vsdstdcelldesign into the design folder of picorv32a/src and make the following changes to the design config.tcl file of picorv32a
+
+```
+set ::env(LIB_SYNTH) "$:env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+set ::env(LIB_FASTEST) "$:env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__fast.lib"
+set ::env(LIB_SLOWEST) "$:env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__slow.lib"
+set ::env(LIB_TYPICAL) "$:env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+set ::env(EXTRA_LEFS) [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
+
+```
+![Screenshot 2024-03-19 110404](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/33f9e771-e7a9-4bf8-af99-2725b89079f9)
+
+## Open Lane flow
+
+We will now incorporate the vsdstdcell in the picorv32a
+
+```
+prep -design picorv32 -tag run1 -overwrite
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+add_lefs -src $lefs
+run_synthesis
+```
+![Screenshot 2024-03-21 152701](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/dd5adf68-eea0-4fa8-ba80-280aa0a215b1)
+
+![Screenshot 2024-03-19 110615](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/d248a260-7876-4205-82da-c09ddafdacc9)
+
+We can see vsdstdcell has been incorporated in our design
+
+
+
 
 
 
