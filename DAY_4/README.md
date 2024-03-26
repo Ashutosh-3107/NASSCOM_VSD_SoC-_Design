@@ -136,6 +136,15 @@ Following output will be shown after running the clock-tree synthesis
 
 ![Screenshot 2024-03-23 211520](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/2e4afcea-555c-41c2-9dad-f048740a6dc8)
 
+## Post Clock tree synthesis
+
+We invoke openroad in the openlane flow
+```
+%openroad
+
+```
+
+
 
 
 
