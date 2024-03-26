@@ -37,6 +37,12 @@ command writes the LEF file with the same nomenclature as that of the layout (.m
 ![Screenshot 2024-03-19 102744](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/5bcd4943-f53a-4556-8f21-a8b2d88cdfb5)
 
 
+## Importing files
+
+Copy the extracted lef file and sky_fd_sc_hd__.lib * all files 
+
+
+
 
  
 
