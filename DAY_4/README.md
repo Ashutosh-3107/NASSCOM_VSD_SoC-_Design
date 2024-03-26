@@ -124,6 +124,21 @@ The def file can be viewed using the magic layout tool
 
 ## Clock-tree Synthesis
 
+Continuing simply give the command run_cts
+
+Following output will be shown after running the clock-tree synthesis
+
+![Screenshot 2024-03-23 211238](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/9d57dc39-aa42-4457-92b9-a5161b948e32)
+
+![Screenshot 2024-03-23 211300](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/c488d0c1-393c-4ca7-9d2d-182052b38625)
+
+![Screenshot 2024-03-23 211310](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/3b6c6778-7ec0-4dea-8bb8-0d4cc6ff4b97)
+
+
+
+
+
+
 
 
 
