@@ -144,6 +144,21 @@ We invoke openroad in the openlane flow
 
 ```
 
+Run the following commands to create a .db file which the openroad software can read
+
+```
+read_lef /openLANE_flow/designs/picorv32a/runs/run1/tmp/merged.lef
+read_def /openLANE_flow/designs/picorv32a/runs/run1/results/cts/picorv32a.cts.def
+write_db pico_cts.db
+read_db pico_cts.db
+read_verilog /openLANE_flow/designs/picorv32a/runs/21-03_02-34/results/synthesis/picorv32a.synthesis_cts.v
+read_liberty $::env(LIB_TYPICAL)
+link_design picorv32a
+read_sdc /openLANE_flow/designs/picorv32a/src/picorv32a.sdc
+set_propagated_clock [all_clocks]
+report_checks -path_delay min_max -fields {slew trans net cap input_pin} -format full_clock_expanded -digits 4
+
+```
 
 
 
