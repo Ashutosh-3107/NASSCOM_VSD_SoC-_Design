@@ -134,6 +134,8 @@ Following output will be shown after running the clock-tree synthesis
 
 ![Screenshot 2024-03-23 211310](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/3b6c6778-7ec0-4dea-8bb8-0d4cc6ff4b97)
 
+![Screenshot 2024-03-23 211520](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/2e4afcea-555c-41c2-9dad-f048740a6dc8)
+
 
 
 
