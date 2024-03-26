@@ -115,6 +115,17 @@ detailed_placement
 
 ```
 
+The def file can be viewed using the magic layout tool
+
+![Screenshot 2024-03-23 153423](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/bdbbe50f-cbf7-4aaf-ad79-7de92021f611)
+
+![Screenshot 2024-03-22 135109](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/8c9bde90-d5c4-4f6f-9fd0-163a122fe9bb)
+
+
+## Clock-tree Synthesis
+
+
+
 
 
 
