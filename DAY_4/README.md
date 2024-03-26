@@ -67,6 +67,34 @@ run_synthesis
 
 We can see vsdstdcell has been incorporated in our design
 
+## SDC Files
+
+### pre_sta.conf
+
+![Screenshot 2024-03-23 202004](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/3f8e5b94-a984-4af6-b4fa-4f221ba7ef91)
+
+### my_base.sdc
+
+![Screenshot 2024-03-23 202557](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/4bcabdbb-713f-4ecd-85c2-54b0d7b27202)
+
+![Screenshot 2024-03-23 202608](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/9229c229-4382-4761-ac77-99baa0ab53bb)
+
+## Reducing the slack to zero
+
+We may not require the above files to reduce the slack to zero. Following are the steps to reduce the slack to zero
+```
+prep -design picorv32a -tag run1 -overwrite
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+add_lefs -src $lefs
+set ::env(SYNTH_STRATEGY) "DELAY 0"
+set ::env(SYNTH_SIZING) 1
+
+```
+
+
+
+
+
 
 
 
