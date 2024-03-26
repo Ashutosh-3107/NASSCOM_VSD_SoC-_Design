@@ -39,7 +39,7 @@ command writes the LEF file with the same nomenclature as that of the layout (.m
 
 ## Importing files
 
-Copy the extracted lef file and sky_fd_sc_hd__.lib * all files 
+Copy the extracted lef file and sky_fd_sc_hd__.lib * all files into the design folder of picorv32a/src and make the following changes to the design config.tcl file of picorv32a
 
 
 
