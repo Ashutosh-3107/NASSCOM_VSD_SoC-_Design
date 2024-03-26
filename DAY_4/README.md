@@ -98,7 +98,23 @@ run_synthesis
 Area of the chip has increased
 
 tns = 0.00
+
 wns = 0.00
+
+## Floorplan and Placement
+
+run_floorplan may result into error. Another alternative is to go to the tcl_commands/floorplan.tcl and view all the sequential procs that take place and give that procs as commands one by one during the openlane flow
+
+```
+init_floorplan
+place_io
+global_placement_or
+detailed_placement
+tap_decap_or
+detailed_placement
+
+```
+
 
 
 
