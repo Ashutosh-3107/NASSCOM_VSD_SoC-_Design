@@ -10,13 +10,21 @@ The place and route tools use this grid info
 
 ## Creating port definitions
 
- In Magic Layout window, first source the .mag file for the design (here inverter). Then Edit >> Text which opens up a dialogue box.
+ In Magic Layout window, first source the .mag file for the design (here inverter). Then Edit >> Text which opens up a dialogue box. All these definitions have already been set.
 
  ![Screenshot 2024-03-19 101506](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/dff46849-a491-49bb-aa77-aa374b343f12)
 
  ![Screenshot 2024-03-19 101724](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/1774b3ba-3ce8-4bd0-80b8-df47670d46cf)
 
  ![Screenshot 2024-03-19 102046](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/93c89989-3710-48ed-a5f6-a1b53a4b4424)
+
+
+## Set port class and port use attributes for a layout
+
+![Screenshot 2024-03-19 102921](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/d3f5bbe6-4f17-4093-8af2-6ba494dbbd91)
+
+
+ 
 
 
 
