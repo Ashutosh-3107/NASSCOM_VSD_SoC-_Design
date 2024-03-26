@@ -160,6 +160,34 @@ report_checks -path_delay min_max -fields {slew trans net cap input_pin} -format
 
 ```
 
+Replace the clock buffer by giving the following command
+
+```
+set ::env(CTS_CLK_BUFFER_LIST) [lreplace $::env(CTS_CLK_BUFFER_LIST) 0 0]
+
+```
+
+We observe the output as
+
+```
+sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8
+
+```
+
+![Screenshot 2024-03-24 120232](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/a8697735-14e8-4d42-8688-d7ac3246ca26)
+
+Commands to report the skew
+
+```
+report_clock_skew -hold
+report_clock_skew -setup
+
+```
+
+
+![Screenshot 2024-03-24 120653](https://github.com/Ashutosh-3107/NASSCOM_VSD_SoC-_Design/assets/159696526/919ae189-4d6e-4a89-8358-ceab5c248a98)
+
+
 
 
 
